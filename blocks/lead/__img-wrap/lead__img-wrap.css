@@ -1,6 +1,7 @@
 .lead__img-wrap {
-    border: 2px solid green;
-    max-width: 100%;      
+    /* border: 2px solid green; */
+    max-width: 100%;
+    height: auto;      
     /* max-height: 62.5%; */
     margin: 0;     
     padding: 0;   

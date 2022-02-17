@@ -1,0 +1,29 @@
+.footer {
+    color: #fff;
+    /* border: 2px solid red; */
+    width: calc(100% - 48px * 2);
+    margin: 0;
+    padding: 80px 0 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .footer {        
+        padding: 75px 0 24px;        
+        width: calc(100% - 48px * 2);          
+    }
+}
+@media screen and (max-width: 768px) {
+    .footer {
+        width: calc(100% - 24px * 2);          
+        /* padding: 75px 0 24px;         */
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+}

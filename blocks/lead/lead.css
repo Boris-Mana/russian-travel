@@ -7,5 +7,21 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    border: 2px solid yellow;
+    /* border: 2px solid green; */
+}
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        width: calc(100% - 48px*2);
+        padding: 50px 0 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
 }
